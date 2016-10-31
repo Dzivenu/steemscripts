@@ -17,7 +17,7 @@ for key in data:
     keys.append(key)
     values.append(data[key])
 print(data4)
-plt.plot(keys, values, '-b', zorder=10)
+plt.plot(keys, values, '.b', zorder=10)
 plt.ylabel('\% vested')
 plt.xlabel('timestamp')
 plt.show()
